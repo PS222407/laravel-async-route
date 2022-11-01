@@ -9,7 +9,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Jensramakers\\laravelAsyncRoute\\laravelAsyncRouteServiceProvider"
+                "Jensramakers\\laravelAsyncRoute\\LaravelAsyncRouteServiceProvider"
             ]
         }
     },
