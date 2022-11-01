@@ -1,0 +1,22 @@
+{
+    "name": "jensramakers/laravel-async-route",
+    "description": "laravel async route class",
+    "autoload": {
+        "psr-4": {
+            "Jensramakers\\laravelAsyncRoute\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jensramakers\\laravelAsyncRoute\\laravelAsyncRouteServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "jensramakers"
+        }
+    ],
+    "require": {}
+}
