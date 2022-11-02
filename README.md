@@ -23,3 +23,12 @@ Route::get('/admin/modal/deletion/{route}', function ($route) {
 })->name('admin.deletion.async.modal');
 ```
 install tailwind elements for modal functionality https://tailwind-elements.com/quick-start/
+
+install fontawesome
+```bash
+npm install --save @fortawesome/fontawesome-free
+```
+and add this line in your scss file
+```scss
+@import '~@fortawesome/fontawesome-free/css/all';
+```
