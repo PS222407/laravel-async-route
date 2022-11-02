@@ -15,6 +15,14 @@ npm i jquery
 and include it in your javascript file
 ```js
 window.$ = window.jQuery = require('jquery');
+
+asyncDeletionModal = function (url) {
+    let el = $("[data-async-container='deletionModal']")[0];
+    el.innerHTML = '';
+    $.get(url, function (data) {
+        el.innerHTML = data;
+    });
+}
 ```
 add this to web.php with needed middleware
 ```php
